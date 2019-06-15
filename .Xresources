@@ -1,0 +1,31 @@
+! ~/.Xresources
+
+#define FONT xos4 Terminus
+
+#define SIZE 22
+#define DPI 96
+
+URxvt*font:             xft:FONT:pixelsize=SIZE:style=Regular:antialias=true, \
+                        xft:Inconsolata:pixelsize=SIZE:style=Regular:antiaalias=true
+URxvt*boldFont:         xft:FONT:pixelsize=SIZE:style=Bold:antialias=true, \
+                        xft:Inconsolata:pixelsize=SIZE:style=Bold:antiaalias=true
+URxvt*url-launcher:     /usr/bin/firefox
+URxvt*scrollBar:        false
+URxvt*scrollBar_right:  true
+URxvt.iso14755:         False
+URxvt*dynamicColors:    on
+URxvt.internalBorder:   10
+URxvt.underlineURLs:    true
+URxvt.matcher.button:   1
+URxvt.copyCommand:      xclip -i -selection clipboard
+URxvt.pasteCommand: xclip -o -selection clipboard
+
+! general font setup for applications ignoring fontconfig
+! https://wiki.archlinux.org/index.php/Font_configuration#Fontconfig_configuration
+Xft.autohint:               0
+Xft.antialias:              1
+Xft.hinting:                true
+Xft.hintstyle:              hintfull
+Xft.rgba:                   rgb
+Xft.lcdfilter:              lcddefault
+Xft.dpi: DPI

@@ -1,0 +1,14 @@
+rofi.color-enable:	true
+rofit.separator-style:	solid
+rofi.font:		xos4 Terminus 22
+rofi.bw:		2
+rofi.columns:		1
+rofi.yoffset:		0
+rofi.fake-transparency	false
+rofi.hide-scrollbar:	true
+!rofi.opacity:		90
+
+rofi.location:		0
+rofi.width:		30
+rofi.lines:		10
+rofi.fixed-num-lines:	true
