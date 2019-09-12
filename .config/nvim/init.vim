@@ -17,6 +17,9 @@ Plug 'fatih/vim-go', { 'for': 'go' }
 Plug 'elixir-lang/vim-elixir', { 'for': ['elixir', 'eelixir'] }
 Plug 'tpope/vim-endwise', { 'for': ['ruby', 'elixir'] }
 Plug 'PotatoesMaster/i3-vim-syntax', { 'for': 'i3' }
+Plug 'pangloss/vim-javascript', { 'for': ['javascript', 'typescript'] }
+Plug 'leafgarland/typescript-vim', { 'for': ['javascript', 'typescript'] }
+Plug 'mxw/vim-jsx', { 'for': ['javascript', 'typescript'] }
 
 call plug#end()
 
@@ -178,4 +181,3 @@ function! Rename(name, bang)
 
   return l:status
 endfunction
-
